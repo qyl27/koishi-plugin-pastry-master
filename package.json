@@ -1,0 +1,21 @@
+{
+  "name": "@qyl27/koishi-plugin-pastry-master",
+  "description": "A pastry master koishi plugin. 面点大师 Koishi 插件，响应如“/抱抱”、“/摸摸”等消息。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.14.1"
+  }
+}
