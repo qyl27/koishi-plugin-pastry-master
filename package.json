@@ -1,9 +1,17 @@
 {
   "name": "@qyl27/koishi-plugin-pastry-master",
   "description": "A pastry master koishi plugin. 面点大师 Koishi 插件，响应如“/抱抱”、“/摸摸”等消息。",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "contributors": [
+    "qyl27 <i@rain.cx>"
+  ],
+  "homepage": "https://github.com/qyl27/koishi-plugin-pastry-master",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyl27/koishi-plugin-pastry-master.git"
+  },
   "files": [
     "lib",
     "dist"
@@ -17,5 +25,11 @@
   ],
   "peerDependencies": {
     "koishi": "^4.14.1"
+  },
+  "koishi": {
+    "description": {
+      "zh": "面点大师插件，响应如“/抱抱”、“/摸摸”等消息。"
+    },
+    "locales": ["zh"]
   }
 }

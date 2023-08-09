@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "jsx": "react-jsx",
-    "jsxImportSource": "@satorijs/element",
+    "jsxImportSource": "@satorijs/element"
   },
   "include": [
     "src",
