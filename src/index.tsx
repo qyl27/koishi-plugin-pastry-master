@@ -61,7 +61,7 @@ export function apply(ctx: Context) {
   ctx.on('message', async (session) => {
     let msg = session.content;
 
-    if (session.quote) {
+    if (session.quote && session.platform === 'onebot') {
       msg = session.elements.slice(1).toString();
     }
 
